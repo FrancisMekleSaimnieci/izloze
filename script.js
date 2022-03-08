@@ -8,8 +8,18 @@ for (let i=0;i<uzvaretajuSkaits;i++){
     let rand=Math.random()*vardi.length;
     rand=Math.floor(rand);
     let uzvaretajs = vardi[rand];
-    rindas.innerHTML+=``
+    let laimests = balvas[rand];
+    rindas.innerHTML +=`
+    <tr>
+    <td>${i+1}</td>
+    <td>${uzvaretajs}</td>
+    <td>${laimests}</td>
+    </tr>`
+
 }
+
+
+
 
 
 
