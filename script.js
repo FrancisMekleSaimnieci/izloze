@@ -1,5 +1,5 @@
 const vardi=['Rober Kamol', 'Reiny Melgailis','Kaspars Ķirsis','Daniel Kazainis','Francis Pūliņš'];
-const balvas=['Galds','Durvju Zvans','Krēsls ar divām kājām','Kviešu grauds','Bērns'];
+const balvas=['2 lati','1g sāls','100 santīmi','0,03 santīmi','0,15 santīmi'];
 const naudaKopa= 30;
 let uzvaretajuSkaits = 5;
 let rindas=document.querySelector('.rindas');
